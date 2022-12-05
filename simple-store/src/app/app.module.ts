@@ -8,13 +8,15 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ProductsAlertComponent } from './products-alert/products-alert.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductsAlertComponent
+    ProductsAlertComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
